@@ -1,6 +1,6 @@
 ---
 name: fable-5
-description: "Use on any non-trivial software engineering task, even when the user does not ask for methodology. Fires when implementing a feature, fixing a bug, debugging, refactoring, auditing code, reviewing a diff, making an architecture or design decision, doing performance or optimization work, writing a migration, touching auth or payments or permissions, or any task that spans more than one edit or more than one file. Load it before writing or changing code, not after. This is the working discipline that keeps reasoning at full strength: read before acting, decompose before executing, verify before claiming done."
+description: "Use only for complex or high-stakes software engineering work, or when the user explicitly types /fable-5. Complex means: architecture or design decisions, data migrations, concurrency or idempotency work, anything touching auth, payments, permissions, or secrets, a debugging session with no clear root cause yet, or a change that spans many files or is hard to reverse. Do not use for small, routine, or single-file edits, quick fixes, config tweaks, or simple questions, let those proceed normally without this skill. When triggered, load it before writing or changing code, not after. This is the working discipline that keeps reasoning at full strength: read before acting, decompose before executing, verify before claiming done."
 ---
 
 # fable-5: core engineering discipline

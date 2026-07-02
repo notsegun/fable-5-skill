@@ -19,9 +19,11 @@ cp -r fable-5-skill/fable-5 ~/.claude/skills/fable-5
 
 ## usage
 
-once installed, this skill is on by default. claude code loads it automatically on any non-trivial engineering task: implementing a feature, fixing a bug, debugging, refactoring, reviewing a diff, or anything spanning more than one file.
+this skill does not load on every task. claude code only reaches for it on complex or high-stakes engineering work: architecture and design decisions, data migrations, concurrency or idempotency work, anything touching auth, payments, permissions, or secrets, a debugging session with no clear root cause yet, or a change that spans many files or is hard to reverse.
 
-to force it explicitly, start your prompt with:
+for small, routine, or single-file edits, quick fixes, config tweaks, or simple questions, it stays out of the way.
+
+to force it explicitly on any task, start your prompt with:
 
 ```
 /fable-5 <your prompt>
