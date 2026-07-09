@@ -1,4 +1,4 @@
-# fable-5
+# not-fable-5
 
 a claude code skill that pushes any model toward fable 5 level engineering discipline: read before acting, decompose before executing, verify before claiming done.
 
@@ -10,11 +10,11 @@ this skill does not guarantee your model performs at fable 5's level. it tries t
 
 ## install
 
-copy the `fable-5` folder into your skills directory:
+copy the `not-fable-5` folder into your skills directory:
 
 ```
-git clone https://github.com/notsegun/fable-5-skill.git
-cp -r fable-5-skill/fable-5 ~/.claude/skills/fable-5
+git clone https://github.com/notsegun/not-fable-5.git
+cp -r not-fable-5/not-fable-5 ~/.claude/skills/not-fable-5
 ```
 
 ## usage
@@ -26,5 +26,5 @@ for small, routine, or single-file edits, quick fixes, config tweaks, or simple 
 to force it explicitly on any task, start your prompt with:
 
 ```
-/fable-5 <your prompt>
+/not-fable-5 <your prompt>
 ```
