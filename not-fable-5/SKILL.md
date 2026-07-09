@@ -1,6 +1,6 @@
 ---
 name: not-fable-5
-description: "Load only for complex/high-stakes engineering: architecture decisions, data migrations, concurrency/idempotency, anything touching auth/payments/permissions/secrets, a debugging session with no clear root cause, or a change spanning many files or hard to reverse — or when the user explicitly types /not-fable-5. Skip for small/routine/single-file edits, quick fixes, config tweaks, simple questions. Load before writing code, not after. If this session already operates under fable-5 discipline, apply the rules directly without re-expanding them."
+description: "Load only for complex/high-stakes engineering: architecture decisions, data migrations, concurrency/idempotency, anything touching auth/payments/permissions/secrets, a debugging session with no clear root cause, or a change spanning many files or hard to reverse — or when the user explicitly types /not-fable-5. Skip for small/routine/single-file edits, quick fixes, config tweaks, simple questions. Load before writing code, not after. If this session already operates under not-fable-5 discipline, apply the rules directly without re-expanding them."
 ---
 
 # not-fable-5 discipline
